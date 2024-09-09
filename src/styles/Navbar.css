@@ -1,0 +1,31 @@
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #365fa3;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: 600;
+    color:#0F0F0F;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #365fa3;
+}
+
+li:last-child {
+   width: 128px;
+   height: 45px;
+   border-radius: 8px; 
+   padding: 9px 25px 9px 25px;
+   background-color: #38D69E;
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+}
+
+ul li:last-child:hover{
+    cursor: pointer;
+}
