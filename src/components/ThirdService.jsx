@@ -1,27 +1,22 @@
 import React from 'react';
-import firstImage from '../assets/PmRtKHup-Innoson-G5 1.png';
-import '../styles/Firstservice.css';
-const FirstService = () => {
+import Okada from '../assets/jincheng.png';
+
+const ThirdService = () => {
   return (
     <>
       <div className='firstservice-container'>
         <div className='firstservice-card container d-sm-flex gap-5'>
           <div>
-            <img
-              src={firstImage}
-              alt=''
-              className='first-img d-none d-lg-block'
-            />
+            <img src={Okada} alt='' className='first-img d-none d-lg-block' />
           </div>
           <div className='firstservice-content flex-wrap d-flex flex-column justify-content-center'>
-            <h3 className=''>Automobile Manufacturing</h3>
+            <h3 className=''>Motorcycle Manufacturing</h3>
             <p>
-              Innoson Vehicle Manufacturing [IVM] introduces automotive products
-              from China, Japan and Germany. Our product line includes heavy
-              duty vehicles, middle and high level buses, special environment
-              friendly vehicles. The company carries out optimization design and
-              assembly according to African road condition so as produce
-              suitable products at affordable prices.
+              Innoson Nigeria Limited Nnewi Manufactures motorcycles,
+              tri-cycles, spare parts and accessories. We pioneered the first
+              Made-in-Nigeria Motorcycle brand that sold for as low as N60,000.
+              By year 2002, we successfully drove out tokunbo (foreign used)
+              motorcycles out of Nigeria forever
             </p>
             <button className='service-button text-center'>
               Learn More{' '}
@@ -44,4 +39,4 @@ const FirstService = () => {
   );
 };
 
-export default FirstService;
+export default ThirdService;
