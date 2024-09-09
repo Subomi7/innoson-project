@@ -10,6 +10,19 @@
 .firstservice-content{
     padding: 0 1rem 0 1rem;
 }
+
+.firstservice-content h3 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #365FA3;
+}
+
+.firstservice-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0F0F0F;
+}
+
 .firstservice-card {
   background-color: white;
   padding: 2rem;

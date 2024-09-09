@@ -1,5 +1,5 @@
 import './App.css';
-import Firstservice from './components/Firstservice';
+import FirstService from './components/FirstService';
 import Hero from './components/Hero';
 import Motto from './components/Motto';
 import Services from './components/Services';
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <Motto />
       <Services />
-      <Firstservice />
+      <FirstService />
     </>
   );
 }
