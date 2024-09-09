@@ -1,14 +1,20 @@
-import React from 'react'
-import "../styles/Hero.css"
+import React from 'react';
+import '../styles/Hero.css';
 
 const Hero = () => {
   return (
     <>
-    <main>
-        <h2 className='container text-white'></h2>
-    </main>
+      <main className='hero-section d-flex flex-column align-items-start justify-content-center'>
+        <h2 className='container'>Crafting Africa's <br /> Roads Ahead</h2>
+        <p className='container'>
+          Our vehicle assembly line represents the essence of African<br />
+          innovation. From rugged off-road explorers to sleek city cruisers,<br /> we
+          assemble vehicles that traverse the varied landscapes of our <br /> beautiful
+          continent
+        </p>
+      </main>
     </>
-)
-}
+  );
+};
 
-export default Hero
+export default Hero;

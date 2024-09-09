@@ -1,0 +1,11 @@
+.motto-container {
+    background-color: #365FA3;
+}
+
+.motto-container h3 {
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57.2px;
+    color: #ffffff;
+}

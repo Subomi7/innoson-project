@@ -1,5 +1,8 @@
 import './App.css';
+import Firstservice from './components/Firstservice';
 import Hero from './components/Hero';
+import Motto from './components/Motto';
+import Services from './components/Services';
 import Navbar from './layout/Navbar';
 
 function App() {
@@ -7,6 +10,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Motto />
+      <Services />
+      <Firstservice />
     </>
   );
 }

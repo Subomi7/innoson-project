@@ -4,3 +4,17 @@ main{
     width: 100%;
     height: 37rem;
 }
+
+.hero-section h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    line-height: 81.72px;
+}
+
+.hero-section p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27.24px;
+    color: white;
+}
