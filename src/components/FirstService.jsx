@@ -1,7 +1,7 @@
 import React from 'react';
 import firstImage from '../assets/PmRtKHup-Innoson-G5 1.png';
 import '../styles/Firstservice.css';
-const Firstservice = () => {
+const FirstService = () => {
   return (
     <div className='firstservice-container'>
       <div className='firstservice-card container d-sm-flex gap-5'>
@@ -25,4 +25,4 @@ const Firstservice = () => {
   );
 };
 
-export default Firstservice;
+export default FirstService;
