@@ -29,3 +29,8 @@ li:last-child {
 ul li:last-child:hover{
     cursor: pointer;
 }
+
+.menu-img {
+    /* width: 50%; */
+    height: 2.5rem;
+}
