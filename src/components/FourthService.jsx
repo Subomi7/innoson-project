@@ -1,6 +1,5 @@
 import React from 'react';
 import tires from '../assets/tires.png';
-import '../styles/FourthService.css';
 
 const FourthService = () => {
   return (

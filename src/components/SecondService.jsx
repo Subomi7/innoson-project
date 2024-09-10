@@ -1,6 +1,5 @@
 import React from 'react';
 import secondService from '../assets/secondservice.png';
-import '../styles/Secondservice.css';
 
 const SecondService = () => {
   return (

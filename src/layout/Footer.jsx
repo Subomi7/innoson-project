@@ -64,7 +64,9 @@ const Footer = () => {
           </div>
           <hr />
         </div>
-        &nbsp;
+        <div className='copyright-container d-flex align-item-center justify-content-center py-4'>
+          <p className=''>© 2016 Innoson Group of Companies</p>
+        </div>
       </footer>
     </>
   );

@@ -10,3 +10,8 @@
     font-weight: 700;
     font-size: 60px;
 }
+@media (max-width: 425px) {
+    .vision-container h2 {
+        font-size: 40px;
+    }
+}
