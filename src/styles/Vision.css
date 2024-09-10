@@ -1,0 +1,12 @@
+.vision-container {
+    background-image: url("../assets/istockphoto-537311780-612x612 1.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 27rem;
+}
+
+.vision-container h2{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}

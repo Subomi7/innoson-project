@@ -13,7 +13,7 @@ const Hero = () => {
           continent
         </p>
       </main>
-    </>
+    </> 
   );
 };
 

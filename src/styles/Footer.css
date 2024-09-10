@@ -1,0 +1,58 @@
+footer {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+hr {
+  background-color: white;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  top: -0px;
+  left: -0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-container {
+  gap: 14rem;
+  padding: 3rem 0 7rem 0;
+}
+
+.btn-container {
+  border: none;
+  border-radius: 4px;
+  height: 2.3rem;
+  width: 6rem;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  background-color: #2e3192;
+  line-height: 21.79px;
+  padding: 3px 3px 3px 3px;
+}
+
+.btn-container:hover {
+  cursor: pointer;
+  background-color: #5e61a8;
+}
+
+.form-container {
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+@media (max-width: 425px) {
+  .footer-container {
+    gap: 8rem;
+  }
+}

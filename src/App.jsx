@@ -6,6 +6,8 @@ import Motto from './components/Motto';
 import SecondService from './components/SecondService';
 import Services from './components/Services';
 import ThirdService from './components/ThirdService';
+import Vision from './components/Vision';
+import Footer from './layout/Footer';
 import Navbar from './layout/Navbar';
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <SecondService />
       <ThirdService />
       <FourthService />
+      <Vision />
+      <Footer />
     </>
   );
 }
